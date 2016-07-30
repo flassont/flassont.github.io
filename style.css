@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,500';
+
+/*
+ * Color scheme (Complementary, starting from HEX #FF5F00)
+ * primary (orange): hsl(22, 100%, 50%);
+ * secondary (green blue): hsl(180, 100%, 40%);
+ */
+
+:root {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    color: hsl(0, 0%, 25%);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+section h1, section h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
