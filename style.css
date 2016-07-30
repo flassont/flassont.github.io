@@ -6,6 +6,8 @@
  * secondary (green blue): hsl(180, 100%, 40%);
  */
 
+/** Overhaul */
+
 :root {
     font-family: Lato, Helvetica, Arial, sans-serif;
     color: hsl(0, 0%, 25%);
@@ -21,6 +23,8 @@ body {
     background: #fff;
     box-shadow: 0 0 2em hsla(0, 0%, 25%, .75);
 }
+
+/** Header */
 
 header {
     min-height: 100vh;
@@ -41,7 +45,7 @@ header h1 {
 }
 
 
-/** Don't get mad at me, CSS did forget the ::first-word */
+/* Don't get mad at me, CSS did forget the ::first-word */
 header h1 .first-word {
     font-weight: bold;
     /* Balance the boldness */
@@ -60,11 +64,26 @@ header .profile-pic {
     order: -1;
 }
 
+/** Sections */
+
 section:nth-child(n-1) {
     padding-bottom: 3em;
 }
 
-section h1:first-child {
-    border-bottom: 2px solid hsl(22, 100%, 50%);
+section h1 {
+    border-bottom: 1px solid hsl(22, 100%, 50%);
     text-align: center;
+    font-size: 2em;
+    letter-spacing: .1ch;
+    word-spacing: .4ch;    
+}
+
+section h2 {
+    padding-top: 2em;
+    width: 90%;
+    border-bottom: 1px solid hsla(180, 100%, 40%, .25);
+}
+
+section h3 {
+    font-weight: 500;
 }
