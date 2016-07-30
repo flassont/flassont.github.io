@@ -59,3 +59,12 @@ header .profile-pic {
     max-width: 15em;
     order: -1;
 }
+
+section:nth-child(n-1) {
+    padding-bottom: 3em;
+}
+
+section h1:first-child {
+    border-bottom: 2px solid hsl(22, 100%, 50%);
+    text-align: center;
+}
